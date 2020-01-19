@@ -1,29 +1,27 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
-
-
-
+A. It is vacabulary set of gramitical rules for instructing a computer of computing device to perform specific tasks.
 
 What jdk contains or composed of and define each components?
-A.
-
-
-
-
+A.JDK contain JVM and JRE
+JVM is Java Virtual Machine is use to excute the program
+JRE is Java run time environement is simply run java program
 
 What is IDE?
-A.
-
-
+A.Integrated Development Envirenment
 
 What are the IDEs available in the market to support java?
-A.
-
-
+A.Eclipse,Intellij,Net Beans,Microsoft Visual Studio
 
 Explain the entire java life cycle.
+Source code is written then you compile.
+Compiler call javac compiler, all these java source code produce byte code and then those
+ byte codes can load to JVM by using Java Loader in JVM (Java Virtual Machine) it has
+ two steps it verify byte codes and just intime operator it interpretes then it goes to
+ operating system. This is the life cycle of Java.
+ When we write codes in note pad or sublime we see step by step process, but if you writes codes in
+ Eclipse or Intellij ,IDE process above steps  when we hit the run button we get the output.
 what is class?
 Blue print of an Object.
 

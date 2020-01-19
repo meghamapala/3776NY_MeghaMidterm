@@ -25,6 +25,8 @@ A.
 
 Explain the entire java life cycle.
 what is class?
+Blue print of an Object.
+
 What is object?
 What is the entry point of an application?
 main method
@@ -37,6 +39,7 @@ What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
 What is OOP ? Define each feature of java OOP.
+
 What is Java Package and which package is imported by default?
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?
@@ -51,6 +54,7 @@ If we don't have a constructor declared, what is called during the object creati
 What is "this" keyword in java ?
 What is "super" keyword in java? How many possible way can you use?
 What is JVM stand for ?
+Java Virtual Machine
 Is JVM platform independent?
 What version of java are you using?
 What is JAR stand for ?
