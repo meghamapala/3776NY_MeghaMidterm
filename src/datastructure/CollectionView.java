@@ -17,9 +17,20 @@ public static void main(String[] args) {
         map.put(4, "Boston");
         map.put(5, "San Jose");
         map.put(6, "Seattle");
+        map.put(7, "Hartford");
+        map.put(8, "Newark");
+        map.put(9, "Las Vegas");
+        map.put(10,"Chicago");
 
+        System.out.println(map.get(6));
+        System.out.println(map.size());
 
-
-    }
-
+        for (HashMap.Entry entry:map.entrySet()){
+                System.out.println(entry.getKey()+"  "+entry.getValue());
+        }
+        System.out.println(map.remove(2,"LA"));
+        for (HashMap.Entry entry:map.entrySet()) {
+                System.out.print(entry.getKey() + " " + entry.getValue()+"  ");
+        }
+}
 }
